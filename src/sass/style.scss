@@ -4,10 +4,44 @@
 @import "uikit/uikit-theme";
 @import "bootstrap/bootstrap";
 
-@import "typography";
+@import 'typography';
+@import 'grid';
+@import 'buttons';
 
-.uk-light {
+body {
 
-	color: $global-background;
+	background: $grayGradient;
+	min-height: 100vh;
+	margin: 0;
+	padding: 60px 0 0 0;
+	overflow-x: hidden;
+
+}
+
+p {
+
+	margin: 0;
+
+}
+
+.card {
+
+	border: none;
+
+}
+
+.input-group-text {
+
+	background: $lightBlue;
+	border: 1px solid $lightBlue;
+	color: $white;
+
+}
+
+blockquote {
+
+	font-size: 2em;
+	font-style: italic;
+	color: $lightBlue;
 
 }
