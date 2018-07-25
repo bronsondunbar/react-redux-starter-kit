@@ -1,12 +1,27 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import { hot } from "react-hot-loader"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from "react-router-dom"
+import registerServiceWorker from "./registerServiceWorker"
 
-import App from "./app/app.js"
+import { Provider } from 'react-redux';
+import createHistory from 'history/createHashHistory'
+
+import reducers from './app/reducers'
+
+import App from './app/app.js'
 
 import "./sass/style.scss"
 
-const AppWithHot = hot(module)(App)
+import configureStore from './store'
+const history = createHistory()
+const store = configureStore(history)
 
-var mountNode = document.getElementById("app")
-ReactDOM.render(<AppWithHot />, mountNode)
+ReactDOM.render(
+	<Provider store={store}>
+		<Router>
+	  	<App />
+		</Router>
+	</Provider>,
+	document.getElementById('app')
+);
+registerServiceWorker()

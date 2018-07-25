@@ -13,11 +13,22 @@
     "start": "webpack-dev-server --hot --mode development"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
+    "dompurify": "^1.0.6",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "moment": "^2.22.2",
-    "lodash": "^4.17.10",
-    "react-hot-loader": "^4.3.3"
+    "react-hot-loader": "^4.3.3",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^1.1.4",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "webpack": "^4.16.1",
