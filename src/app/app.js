@@ -31,90 +31,100 @@ class App extends Component {
             </div>
           </header>
 
-          <h2>Libraries included:</h2>
+          <div className="grid">
+            <div className="item">
+              <div>
+                <h2>Libraries included:</h2>
 
-          <ul>
-            <li>
-              <a href="" target="_blank">
-                Bootstrap
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                UIkit
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                Font Awesome
-              </a>
-            </li>
-          </ul>
+                <ul>
+                  <li>
+                    <a href="" target="_blank">
+                      Bootstrap
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      UIkit
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      Font Awesome
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-          <h2>Extra dependencies:</h2>
+            <div className="item">
+              <div>
+                <h2>Extra dependencies:</h2>
 
-          <ul>
-            <li>
-              <a href="" target="_blank">
-                classnames
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                dompurify
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                moment
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                prop-types
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                react-redux
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                react-router-dom
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                react-router-redux
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                react-scripts
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                redux
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                redux-logger
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                redux-promise
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                redux-thunk
-              </a>
-            </li>
-          </ul>
+                <ul>
+                  <li>
+                    <a href="" target="_blank">
+                      classnames
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      dompurify
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      moment
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      prop-types
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      react-redux
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      react-router-dom
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      react-router-redux
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      react-scripts
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      redux
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      redux-logger
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      redux-promise
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      redux-thunk
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     )

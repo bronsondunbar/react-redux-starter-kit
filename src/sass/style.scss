@@ -24,6 +24,21 @@ p {
 
 }
 
+a {
+
+	color: $lightBlue;
+	text-decoration: none;
+	transition: $fastTransition;
+
+	&:hover, &:focus {
+
+		color: darken($lightBlue, 20%);
+		text-decoration: none;
+
+	}
+
+}
+
 .card {
 
 	border: none;
