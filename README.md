@@ -2,6 +2,12 @@
 
 Starter kit for using React & Redux
 
+`git clone https://github.com/bronsondunbar/react-redux-starter-kit`
+
+`npm install`
+
+`npm run`
+
 ## Libraries included:
 
 - <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
